@@ -8,26 +8,32 @@
 using namespace std;
 
 class Solution {
+
+private:
+    int countFrom(vector<int>& nums, int i, int curr) {
+        int count = 0;
+        while (i < nums.size() && nums[i] == curr) {
+            count++;
+            i++;
+        }
+        return count;
+    }
 public:
     int findLHS(vector<int>& nums) {
         int maxCount = 0;
         std::sort(nums.begin(), nums.end());
-        int prevCount = 0;
         int prev = INT_MIN;
-        for (int i = 0; i < nums.size(); i++) {
-            int count = 0;
-            int curr = nums[i];
-            while (i < nums.size() && nums[i] == curr) {
-                count++;
-                i++;
-            }
-            i--;
-
+        int curr;
+        int prevCount = 0;
+        int currCount = 0;
+        for (int i = 0; i < nums.size(); i += currCount) {
+            curr = nums[i];
+            currCount = countFrom(nums, i, curr);
             if (prev != INT_MIN && curr - prev == 1) {
-                maxCount = std::max(maxCount, count + prevCount);
+                maxCount = std::max(maxCount, currCount + prevCount);
             }
+            prevCount = currCount;
             prev = curr;
-            prevCount = count;
         }
         return maxCount;
     }
