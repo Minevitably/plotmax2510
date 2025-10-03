@@ -28,23 +28,16 @@ public:
         }
 
         TreeNode *root = new TreeNode();
+        int lVal = (root1 == nullptr ? 0 : root1->val);
+        int rVal = (root2 == nullptr ? 0 : root2->val);
+        TreeNode * l1 = (root1 == nullptr ? nullptr : root1->left);
+        TreeNode * r1 = (root1 == nullptr ? nullptr : root1->right);
+        TreeNode * l2 = (root2 == nullptr ? nullptr : root2->left);
+        TreeNode * r2 = (root2 == nullptr ? nullptr : root2->right);
 
-        if (root1 == nullptr) {
-            root->val = root2->val;
-            root->left = mergeTrees(nullptr, root2->left);
-            root->right = mergeTrees(nullptr, root2->right);
-            return root;
-        }
-        if (root2 == nullptr) {
-            root->val = root1->val;
-            root->left = mergeTrees(root1->left, nullptr);
-            root->right = mergeTrees(root1->right, nullptr);
-            return root;
-        }
-        root->val = root1->val + root2->val;
-
-        root->left = mergeTrees(root1->left, root2->left);
-        root->right = mergeTrees(root1->right, root2->right);
+        root->val = lVal + rVal;
+        root->left = mergeTrees(l1, l2);
+        root->right = mergeTrees(r1, r2);
         return root;
     }
 
