@@ -11,23 +11,10 @@ class Solution {
 public:
     int maximumProduct(vector<int> &nums) {
         std::sort(nums.begin(), nums.end());
-        int p = 0;
-        int q = 0;
         int n = nums.size();
-        for (int i = 0; i < n; i++) {
-            if (nums[i] < 0) {
-                q++;
-            } else {
-                p++;
-            }
-        }
-        if (q >= 2) {
-            bool flag = nums[0] * nums[1] > nums[n - 3] * nums[n - 2];
-            if ((p > 0 && p < 3) || (p >= 3 && flag)) {
-                return nums[0] * nums[1] * nums[n - 1];
-            }
-        }
-        return nums[n - 3] * nums[n - 2] * nums[n - 1];
+        int a = nums[n - 3] * nums[n - 2] * nums[n - 1];
+        int b = nums[0] * nums[1] * nums[n - 1];
+        return std::max(a, b);
     }
 };
 
