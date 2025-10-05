@@ -11,20 +11,18 @@ class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
         int n = nums.size();
-        vector<bool> flag(n,false);
+        std::sort(nums.begin(), nums.end());
         vector<int> ans;
+        int sum = 0;
         for (int i = 0; i < n; i++) {
-            if (flag[nums[i] - 1]) {
+            if (i + 1 < n && nums[i] == nums[i + 1]) {
                 ans.emplace_back(nums[i]);
-            }
-            flag[nums[i] - 1] = true;
-        }
-        for (int i = 0; i < n; i++) {
-            if (!flag[i]) {
-                ans.emplace_back(i + 1);
-                break;
+            } else {
+                sum += nums[i];
             }
         }
+        int Sn = n * (n + 1) / 2;
+        ans.emplace_back(Sn - sum);
         return ans;
     }
 };
