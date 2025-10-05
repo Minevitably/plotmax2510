@@ -11,4 +11,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0617-MergeTwoBinaryTrees)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0628-MaximumProductOfThreeNumbers)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0637-AverageOfLevelsInBinaryTree)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0643-MaximumAverageSubarrayI)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0645-SetMismatch)
 
