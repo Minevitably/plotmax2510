@@ -13,4 +13,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0637-AverageOfLevelsInBinaryTree)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0643-MaximumAverageSubarrayI)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0653-TwoSumIV-InputIsABST)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0657-RobotReturnToOrigin)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0661-ImageSmoother)
 
