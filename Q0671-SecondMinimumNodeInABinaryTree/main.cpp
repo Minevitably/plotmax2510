@@ -42,10 +42,8 @@ public:
             ans = max(root->left->val, root->right->val);
         }
         int l = findSecondMinimumValue(root->left);
-        ans = getMin(ans, l);
         int r = findSecondMinimumValue(root->right);
-        ans = getMin(ans, r);
-        return ans;
+        return getMin(ans, getMin(l, r));
     }
 };
 
