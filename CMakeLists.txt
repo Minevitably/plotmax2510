@@ -18,4 +18,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0671-SecondMinimumNodeInABinaryTree)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0674-LongestContinuousIncreasing)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0680-ValidPalindromeII)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0682-BaseballGame)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0693-BinaryNumberWithAlternatingBits)
 
