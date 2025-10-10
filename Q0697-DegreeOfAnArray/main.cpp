@@ -26,18 +26,18 @@ public:
         int minLength = nums.size();
         map<int, Info> infoMap;
         for (int i = 0; i < nums.size(); i++) {
-            if (infoMap.count(nums[i]) == 0) {
-                Info info(1, i, i);
-                infoMap[nums[i]] = info;
+            int key = nums[i];
+            if (infoMap.count(key) == 0) {
+                infoMap[key] = Info(1, i, i);
             } else {
-                infoMap[nums[i]].maxIndex = i;
-                infoMap[nums[i]].count++;
+                infoMap[key].maxIndex = i;
+                infoMap[key].count++;
             }
-            maxCount = std::max(maxCount, infoMap[nums[i]].count);
+            maxCount = std::max(maxCount, infoMap[key].count);
         }
 
-        for (auto element: infoMap) {
-            Info &info = element.second;
+        for (pair<int, Info> item: infoMap) {
+            Info &info = item.second;
             if (info.count == maxCount) {
                 int len = info.maxIndex - info.minIndex + 1;
                 minLength = std::min(minLength, len);
