@@ -21,4 +21,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0682-BaseballGame)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0693-BinaryNumberWithAlternatingBits)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0696-CountBinarySubstrings)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0697-DegreeOfAnArray)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0700-SearchInABinarySearchTree)
 
