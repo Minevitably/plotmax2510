@@ -24,4 +24,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0697-DegreeOfAnArray)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0700-SearchInABinarySearchTree)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0703-KthLargestElementInAStream)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0704-BinarySearch)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0705-DesignHashSet)
 
