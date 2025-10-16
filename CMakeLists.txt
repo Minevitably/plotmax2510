@@ -31,4 +31,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0717-1-bitAnd2-bitCharacters)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0724-FindPivotIndex)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0728-SelfDividingNumbers)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0733-FloodFill)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0744-FindSmallestLetterGreaterThanTarget)
 
