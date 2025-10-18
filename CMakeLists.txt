@@ -34,4 +34,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0733-FloodFill)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0744-FindSmallestLetterGreaterThanTarget)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0746-MinCostClimbingStairs)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0747-LargestNumberAtLeastTwiceOfOthers)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0748-ShortestCompletingWord)
 
