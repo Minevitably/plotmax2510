@@ -32,4 +32,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0724-FindPivotIndex)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0728-SelfDividingNumbers)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0733-FloodFill)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0744-FindSmallestLetterGreaterThanTarget)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0746-MinCostClimbingStairs)
 
