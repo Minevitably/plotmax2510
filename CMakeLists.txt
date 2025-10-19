@@ -36,4 +36,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0746-MinCostClimbingStairs)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0747-LargestNumberAtLeastTwiceOfOthers)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0748-ShortestCompletingWord)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0762-PrimeNumberOfSetBitsInBinaryRepresentation)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0766-ToeplitzMatrix)
 
