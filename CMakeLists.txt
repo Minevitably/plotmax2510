@@ -39,4 +39,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0762-PrimeNumberOfSetBitsInBinaryReprese
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0766-ToeplitzMatrix)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0771-JewelsAndStones)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0783-MinimumDistanceBetweenBSTNodes)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0796-RotateString)
 
