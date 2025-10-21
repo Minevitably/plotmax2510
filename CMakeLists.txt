@@ -41,4 +41,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0771-JewelsAndStones)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0783-MinimumDistanceBetweenBSTNodes)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0796-RotateString)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0804-UniqueMorseCodeWords)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0806-NumberOfLinesToWriteString)
 
