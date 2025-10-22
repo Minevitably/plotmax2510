@@ -43,4 +43,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0796-RotateString)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0804-UniqueMorseCodeWords)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0806-NumberOfLinesToWriteString)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0812-LargestTriangleArea)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0819-MostCommonWord)
 
