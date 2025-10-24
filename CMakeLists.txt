@@ -47,4 +47,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0819-MostCommonWord)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0821-ShortestDistanceToACharacter)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0824-GoatLatin)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0830-PositionsOfLargeGroups)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0832-FlippingAnImage)
 
