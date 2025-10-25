@@ -50,4 +50,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0830-PositionsOfLargeGroups)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0832-FlippingAnImage)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0836-RectangleOverlap)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0844-BackspaceStringCompare)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0859-BuddyStrings)
 
