@@ -52,4 +52,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0836-RectangleOverlap)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0844-BackspaceStringCompare)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0859-BuddyStrings)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0860-LemonadeChange)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0867-TransposeMatrix)
 
