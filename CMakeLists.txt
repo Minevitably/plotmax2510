@@ -55,4 +55,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0860-LemonadeChange)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0867-TransposeMatrix)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0868-BinaryGap)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0872-Leaf-SimilarTrees)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0876-MiddleOfTheLinkedList)
 
