@@ -57,4 +57,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0868-BinaryGap)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0872-Leaf-SimilarTrees)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0876-MiddleOfTheLinkedList)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0883-ProjectionAreaOf3DShapes)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0884-UncommonWordsFromTwoSentences)
 
