@@ -62,4 +62,5 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/Q0888-FairCandySwap)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0892-SurfaceAreaOf3DShapes)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0896-MonotonicArray)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Q0897-IncreasingOrderSearchTree)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Q0905-SortArrayByParity)
 
